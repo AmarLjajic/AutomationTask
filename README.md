@@ -4,11 +4,10 @@ Welcome! Follow the steps below on any fresh Windows 10/11, macOS or Linux box t
 
 
 1. Prerequisites
-Tools                                      Why we need it                              Recommended version
-Git                                        runs the tests & installs packages          2.40 or newer
-Node.js (includes npm)                     default target browser                      18 LTS or 20 LTS
-Chrome                                     default target browser                      v137
-(optional) Firefox / Edge                  extra cross‑browser runs                    Latest releases
+Git version 2.40 or newer
+Node.js (includes npm) version 18 LTS or 20 LTS
+Chrome version v137
+(optional) Firefox / Edge Latest releases
 
 
 Tip (Windows): Use the official Node installer from https://nodejs.org – it adds node & npm to PATH automatically.
@@ -50,13 +49,6 @@ signup-selenium/
       └─ assets/…
 
 Double‑click mochawesome.html to view a coloured dashboard: pass/fail counts, screenshots (if present), and stack traces.
-
-
-5. Common issues & fixes
-Symptom                                             Quick remedy
-chromedriver only supports Chrome v××               npm i chromedriver@<your Chrome major>
-npm not recognised                                  Re‑open terminal ensure C:\Program Files\nodejs\ is in PATH.
-Tests hang at first step                            Antivirus may block WebDriver; whitelist the repo folder.
 
 
 6. Next steps
